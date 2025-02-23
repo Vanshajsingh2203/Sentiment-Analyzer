@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Movie Review Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="main-header">🎬 Movie Review Sentiment Analyzer</h1>
+        <p class="subheader">Analyze the sentiment of your movie review!</p>
+
+        <div class="input-box">
+            <label for="review">Write your review:</label>
+            <textarea id="review" placeholder="Type your movie review here..."></textarea>
+        </div>
+
+        <button id="analyze-btn">🔍 Analyze Sentiment</button>
+
+        <div class="result-box hidden">
+            <h3>🎯 Sentiment: <span id="sentiment-result">Neutral</span></h3>
+            <p><b>Confidence Score:</b> <span id="confidence-score">0.0000</span></p>
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <h1 id="emoji-display">😐</h1>
+        </div>
+
+    </div>
+
+</body>
+</html>
