@@ -1,74 +1,120 @@
-# Sentiment-Analyzer
-🎬 Sentiment Analyzer – Movie Review Analysis App Sentiment Analyzer is a powerful and intuitive web app that helps users determine the sentiment of their movie reviews. 
+# 🎬 Movie Review Sentiment Analyzer
 
-A simple and elegant sentiment analysis web app built with **Streamlit** and **TensorFlow**. This app predicts whether a given movie review is **Positive**, **Negative**, or **Neutral** using a pre-trained RNN model.
+## 📝 Overview
 
-## 🚀 Features
-- 📌 User-friendly interface with a modern design
-- 🎭 Sentiment prediction with confidence score
-- 🎯 Emoji-based sentiment visualization
-- 📊 Progress bar indicating confidence level
+The Movie Review Sentiment Analyzer is a machine learning-powered application that classifies movie reviews as **Positive, Negative, or Neutral** based on sentiment analysis. Using a trained **Recurrent Neural Network (RNN)**, the app predicts the sentiment of user-inputted text and provides a confidence score.
 
-## 📂 Project Structure
-```
-📦 Sentiment-Analyzer
-├── 📄 app.py                # Main Streamlit app
-├── 📄 requirements.txt      # Dependencies list
-├── 📄 Dockerfile            # Docker setup
-├── 📄 tokenizer.pkl         # Tokenizer for text preprocessing
-├── 📄 SimpleRnn_imdb.h5     # Pre-trained RNN model
-├── 📄 .env                  # Environment variables
-└── 📄 README.md             # Project documentation
-```
+## ✨ Features
 
-## 📥 Installation
+- 📝 Text-based Sentiment Analysis
+- 📊 Confidence Score for Sentiment Prediction
+- 🎭 Emoji-based Sentiment Representation
+- 🎨 Modern, User-Friendly UI with Streamlit
+- 📉 Visual Progress Bar for Sentiment Strength
 
-### 1️⃣ Clone the Repository
-```sh
+## 🛠 Technology Stack
+
+- Python
+- Streamlit
+- TensorFlow/Keras
+- NumPy & Pandas
+- Pretrained RNN Model
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- TensorFlow installed
+- Pretrained model (`SimpleRnn_imdb.h5`)
+- Tokenizer file (`tokenizer.pkl`)
+
+### Installation
+
+1. Clone the repository
+```bash
 git clone https://github.com/taskmaster-1/sentiment-analyzer.git
 cd sentiment-analyzer
 ```
 
-### 2️⃣ Create a Virtual Environment
-```sh
+2. Create a virtual environment
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
-### 3️⃣ Install Dependencies
-```sh
+3. Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
-```sh
+### Running the App
+
+```bash
 streamlit run app.py
 ```
 
-## 🐳 Running with Docker
+## 📦 Requirements File
 
-### 1️⃣ Build the Docker Image
-```sh
-docker build -t sentiment-analyzer .
+Create a `requirements.txt` with:
+```txt
+streamlit
+tensorflow
+numpy
+pandas
+pickle-mixin
 ```
-
-### 2️⃣ Run the Docker Container
-```sh
-docker run -p 8501:8501 sentiment-analyzer
-```
-
-## 🛠️ Technologies Used
-- **Streamlit** (UI Framework)
-- **TensorFlow/Keras** (Deep Learning)
-- **NumPy & Pickle** (Data Processing)
-- **Docker** (Containerization)
 
 ## 🤝 Contributing
-Feel free to fork this repository and submit pull requests with improvements!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🔒 Security
+
+- Never commit your model files (`SimpleRnn_imdb.h5`) or tokenizer files (`tokenizer.pkl`) to public repositories
+- Use `.gitignore` to exclude sensitive files
+
+## 📊 How It Works
+
+1. Enter a movie review in the text box
+2. Click the "Analyze Sentiment" button
+3. The model predicts the sentiment (**Positive, Negative, or Neutral**)
+4. The confidence score is displayed
+5. A visual progress bar shows sentiment strength
+
+## 📈 Future Roadmap
+
+- [ ] Improve model accuracy with advanced NLP techniques
+- [ ] Deploy as a web app using Streamlit Sharing or Render
+- [ ] Support for multiple languages
+- [ ] Live API for sentiment prediction
+
+## 🏷️ Versioning
+
+Current Version: 1.0.0
 
 ## 📄 License
-This project is licensed under the **MIT License**.
 
----
+Distributed under the MIT License. See `LICENSE` for more information.
 
-💡 *Developed with ❤️ using Deep Learning.*
+## 🌐 Deployed Application
+
+### 🔗 Live 
+- **Render**: [https://sentiment-analyzer-rncf.onrender.com]
+
+## 📞 Contact
+
+Gmail - [vivekyad5223@gmail.com](mailto:vivekyad5223@gmail.com)
+
+Project Link: [https://github.com/taskmaster-1/sentiment-analyzer](https://github.com/taskmaster-1/sentiment-analyzer)
+
+## 🙏 Acknowledgements
+
+- [Streamlit](https://streamlit.io/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [IMDB Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
+- [Python](https://www.python.org/)
