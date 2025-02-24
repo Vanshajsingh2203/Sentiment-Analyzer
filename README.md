@@ -18,7 +18,7 @@ The Movie Review Sentiment Analyzer is a machine learning-powered application th
 - Streamlit
 - TensorFlow/Keras
 - NumPy & Pandas
-- Pretrained RNN Model
+- RNN
 
 ## 🚀 Getting Started
 
