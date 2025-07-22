@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-The Movie Review Sentiment Analyzer is a machine learning-powered application that classifies movie reviews as **Positive, Negative, or Neutral** based on sentiment analysis. Using a trained **Recurrent Neural Network (RNN)**, the app predicts the sentiment of user-inputted text and provides a confidence score.
+The Movie Review Sentiment Analyzer is a machine learning-powered application that classifies movie reviews as **Positive, Negative, or Neutral** based on sentiment analysis.Using a trained **Recurrent Neural Network (RNN)**, the app predicts the sentiment of user-inputted text and provides a confidence Score.
 
 ## ✨ Features
 
